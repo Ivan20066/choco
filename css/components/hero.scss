@@ -1,7 +1,7 @@
 
 
 .hero {
-    background:url(../../img/Батончики.png) left 78% center no-repeat,
+    background:url() left 78% center no-repeat,
     url(../../img/list1.png) right bottom no-repeat;
     background-color: $blue;
     height: 100vh;
@@ -12,9 +12,15 @@
         position: absolute;
         bottom: -40px;
         left: 2%;
-        content: url(../../img/list3.png);
+        content: url(../../img/list3.png);}
+        &::after {
+            content: url(../../img/comp.png);
+            position: absolute;
+            bottom: -40px;
+            right: 0;
+        }
     }
-}
+
 .hero__title-section {
     width: 46%;
 }

@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css";
 @import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,300;0,400;1,400,700&display=swap");
 html,
@@ -151,7 +150,7 @@ img {
 }
 
 .hero {
-  background: url(../../img/Батончики.png) left 78% center no-repeat, url(../../img/list1.png) right bottom no-repeat;
+  background: url() left 78% center no-repeat, url(../../img/list1.png) right bottom no-repeat;
   background-color: #61C4D9;
   height: 100vh;
   min-height: 650px;
@@ -163,6 +162,12 @@ img {
   bottom: -40px;
   left: 2%;
   content: url(../../img/list3.png);
+}
+.hero::after {
+  content: url(../../img/comp.png);
+  position: absolute;
+  bottom: -40px;
+  right: 0;
 }
 
 .hero__title-section {

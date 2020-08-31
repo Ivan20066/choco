@@ -88,7 +88,7 @@ img {
   bottom: -40px;
   left: 2%;
 }
-.hero ::after {
+.hero::after {
   content: url();
 }
 

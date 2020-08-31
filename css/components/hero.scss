@@ -1,14 +1,18 @@
 
 
 .hero {
-    background:url(/img/Батончики.png) left 78% center no-repeat,
-    url(/img/узор\ 1.png) right bottom no-repeat;
+    background:url(../../img/Батончики.png) left 78% center no-repeat,
+    url(../../img/list1.png) right bottom no-repeat;
     background-color: $blue;
     height: 100vh;
     min-height: 650px;
     color: #ffffff;
+    position: relative;
     &::before {
-        content: url(../img/Лист\ 3.png);;
+        position: absolute;
+        bottom: -40px;
+        left: 2%;
+        content: url(../../img/list3.png);
     }
 }
 .hero__title-section {

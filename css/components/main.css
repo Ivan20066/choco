@@ -89,7 +89,7 @@ img {
   left: 2%;
 }
 .hero::after {
-  content: url(../../img/Vector-tel.png);
+  content: url();
 }
 
 .hero__title-section {

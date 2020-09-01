@@ -5,15 +5,31 @@
     flex-direction: column;
     justify-content: center;
 }
+.section-reviews {
+  position: relative;
+ &::before {
+    position: absolute;  
+    bottom: -3%;
+    left: 2%;
+    content: url(../../img/jg2.png);}
+    &::after {
+        content:  url(../../img/jg3.png);
+        position: absolute;
+        bottom: 75%;
+        right: 4%;
+ }
+}
 .section__title {
-    font-size: 48px;
+    font-size: 48px; 
     font-weight: bold;
     margin-bottom: 60px;
     text-transform: uppercase;
     color: #000;
+    text-align:center;
 }
 .headline__title {
     margin-bottom: 25px;
+    
 }
 .headline {
     text-align: center;

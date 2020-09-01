@@ -1,0 +1,57 @@
+.revews__display {
+    background:  url(../../img/dpreiw.png)right 10% no-repeat #F8FAF9;
+    padding: 50px 45px 34px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    position: relative;
+
+
+    &::before {
+        content: "";
+        display: block;
+        width: 90px;
+        height: 90px;
+        background:#ffffff;
+        border-radius: 50%;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: -65px;
+        
+    }
+}
+.revews__display-inner {
+    display: flex;    
+}
+.revews__avatar {
+    width: 254px;
+    height: 260px;
+}
+.revews__avatar-img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.revews__content {
+   flex: 1 ;
+   margin-left: 20px;
+}
+.revews__title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 22px;
+    color: #000;
+}
+.revews__text {
+    margin-bottom: 36px;
+}
+.revews__author {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+}
+.revews__switcher {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}

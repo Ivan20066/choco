@@ -6,6 +6,9 @@
     border-radius: 100px;
     line-height: 1;
     text-decoration: none;
+    display: inline-block;
+    border: none;
+
 
     &--thime--white {
         background: #fff;
@@ -14,5 +17,22 @@
     &:hover {
         color: #ffffff;
         background:$darkgreen;
+    }
+    &--theme--green {
+        background: $darkgreen;
+        color:#ffffff;
+        &:hover {
+            color:  $darkgreen;
+            background:#ffffff
+        }
+}
+    &--theme--transparent {
+        background: transparent;
+        color: #000;
+        text-transform: none;
+        &:hover {
+            background:#000;
+            color:  $darkgreen;
+        }
     }
 }

@@ -4,6 +4,13 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+        &--font-color-green {
+            color:$darkgreen;
+            .section__title {
+                color:inherit;
+            }
+        }
 }
 .section-reviews {
   position: relative;
@@ -37,4 +44,7 @@
 .headline__subtitle {
     padding: 0 24%;
     margin-bottom: 80px;
+}
+.order-section {
+    background: url(../../img/form.png) center no-repeat;
 }

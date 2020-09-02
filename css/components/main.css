@@ -134,9 +134,9 @@ img {
 }
 
 .btn {
-  font-size: 19px;
+  font-size: 14px;
   font-weight: bold;
-  padding: 18px 35px;
+  padding: 18px 42px;
   text-transform: uppercase;
   border-radius: 100px;
   line-height: 1;
@@ -248,9 +248,8 @@ img {
 }
 
 .section__title {
-  font-size: 48px;
+  font-size: 40px;
   font-weight: bold;
-  margin-bottom: 60px;
   text-transform: uppercase;
   color: #000;
   text-align: center;
@@ -381,7 +380,7 @@ img {
 }
 
 .revews__title {
-  font-size: 30px;
+  font-size: 24px;
   font-weight: bold;
   margin-bottom: 22px;
   color: #000;

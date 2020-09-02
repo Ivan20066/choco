@@ -25,4 +25,20 @@
 
 .form__input {
   width: 100%;
+  border: none;
+  padding: 18px 11px;
+  border: solid 3px transparent;
+}
+.form__input--textarea {
+  height: 150px;
+  resize: none;
+}
+.form__input:focus {
+  border: 3px solid #DEE2BD;
+  outline: none;
+}
+
+.form__controls {
+  display: flex;
+  flex-wrap: wrap;
 }

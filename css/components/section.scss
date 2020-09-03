@@ -47,4 +47,16 @@
 }
 .order-section {
     background: url(../../img/form.png) center no-repeat;
+    &::before {
+        content:url(../../img/jg4.png);
+        position: absolute;  
+       top: 77%;
+        left: 13%;
+    }
+  &::after {
+    content:url(../../img/list5.png);
+    position: absolute;  
+    top: 73%;
+    right: 10%;
+}
 }

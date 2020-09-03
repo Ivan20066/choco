@@ -10,7 +10,7 @@
 }
 .form__row {
     display: flex;
-    margin-bottom: 18px;
+    margin-bottom: 15px;
 
 }
 .form__block {
@@ -42,4 +42,11 @@
 .form__controls {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 25px;
+}
+.form__btns {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    margin-right: 150px;
 }

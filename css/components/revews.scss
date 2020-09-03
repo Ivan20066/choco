@@ -1,6 +1,6 @@
 .revews__display {
     background:  url(../../img/dpreiw.png)right 10% no-repeat #F8FAF9;
-    padding: 50px 45px 34px;
+    padding: rem(50px) rem(45px) rem(34px);
     margin-bottom: 20px;
     overflow: hidden;
     position: relative;
@@ -9,8 +9,8 @@
     &::before {
         content: "";
         display: block;
-        width: 90px;
-        height: 90px;
+        width: rem(90px);
+        height: rem(90px);
         background:#ffffff;
         border-radius: 50%;
         position: absolute;
@@ -24,8 +24,8 @@
     display: flex;    
 }
 .revews__avatar {
-    width: 254px;
-    height: 260px;
+    width: rem(254px);
+    height: rem(260px);
 }
 .revews__avatar-img {
     object-fit: cover;
@@ -34,24 +34,24 @@
 }
 .revews__content {
    flex: 1 ;
-   margin-left: 20px;
+   margin-left: rem(20px);
 }
 .revews__title {
-    font-size: 24px;
+    font-size: rem(24px);
     font-weight: bold;
-    margin-bottom: 22px;
+    margin-bottom: rem(22px);
     color: #000;
 }
 .revews__text {
-    margin-bottom: 36px;
+    margin-bottom: rem(36px);
 }
 .revews__author {
-    font-size: 18px;
+    font-size: rem(18px);
     font-weight: bold;
     color: #000;
 }
 .revews__switcher {
     display: flex;
     justify-content: center;
-    margin-top: 15px;
+    margin-top: rem(15px);
 }

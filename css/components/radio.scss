@@ -22,8 +22,8 @@
         }
         } }
 .radio__visible {
-    width: 26px;
-    height: 26px;
+    width: rem(26px);
+    height: rem(26px);
     position: relative;
     border-radius: 50%;
    
@@ -33,8 +33,8 @@
 
     &::before {
         content:"";
-        width: 14px;
-        height: 14px;
+        width: rem(14px);
+        height:  rem(14px);
         display: none;
         background: #365A49;
         border-radius: 50%;
@@ -45,5 +45,5 @@
     }
 }
 .radio__title {
-    font-size: 14px;
+    font-size:  rem(14px);
 }

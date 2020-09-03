@@ -1,6 +1,6 @@
 .section {
     height: 100vh;
-    min-height:650px ;
+    min-height: rem(650px) ;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -27,7 +27,7 @@
  }
 }
 .section__title {
-    font-size: 40px; 
+    font-size: rem(40px); 
     font-weight: bold;
   
     text-transform: uppercase;
@@ -35,7 +35,7 @@
     text-align:center;
 }
 .headline__title {
-    margin-bottom: 25px;
+    margin-bottom: rem(25px);
     
 }
 .headline {
@@ -43,7 +43,7 @@
 }
 .headline__subtitle {
     padding: 0 24%;
-    margin-bottom: 80px;
+    margin-bottom: rem(80px);
 }
 .order-section {
     background: url(../../img/form.png) center no-repeat;

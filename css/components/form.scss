@@ -3,19 +3,19 @@
 }
 .form__col {
     flex:1;
-    margin-right: 20px;
+    margin-right: rem(20px);
     &:last-child {
         margin-right: 0;
     }
 }
 .form__row {
     display: flex;
-    margin-bottom: 15px;
+    margin-bottom: rem(15px);
 
 }
 .form__block {
     flex: 1;
-    margin-right: 20px;
+    margin-right: rem(20px);
 
     &:last-child {
         margin-right: 0;
@@ -25,16 +25,16 @@
 .form__input {
     width: 100%;
     border: none;
-    padding: 18px 11px;
+    padding: rem(18px)  rem(11px);
     border: solid 3px transparent;
     
     &--textarea {
-        height: 150px;
+        height: rem(150px);
         resize: none;
     }
 
     &:focus {
-        border: 3px solid #DEE2BD;
+        border: rem(3px) solid #DEE2BD;
         outline: none;
     }
 
@@ -42,11 +42,11 @@
 .form__controls {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 25px;
+    margin-top: rem(25px);
 }
 .form__btns {
     display: flex;
     justify-content: flex-end;
-    margin-top: 20px;
-    margin-right: 150px;
+    margin-top: rem(20px);
+    margin-right: rem(150px);
 }

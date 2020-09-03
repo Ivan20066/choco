@@ -17,13 +17,16 @@
     &:hover {
         color: #ffffff;
         background:$darkgreen;
+        
     }
     &--theme--green {
         background: $darkgreen;
         color:#ffffff;
         &:hover {
             color:  $darkgreen;
-            background:#ffffff
+            background:#ffffff;
+           
+           
         }
 }
     &--theme--transparent {
@@ -33,6 +36,7 @@
         &:hover {
             background:#000;
             color:  $darkgreen;
+           
         }
     }
 }

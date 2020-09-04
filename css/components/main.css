@@ -175,7 +175,7 @@ img {
 }
 
 .hero {
-  background: url() left 78% center no-repeat, url(../../img/list3.png) right bottom no-repeat;
+  background: url() left 78% center no-repeat, url(../../img/list.png) right bottom no-repeat;
   background-color: #61C4D9;
   height: 100vh;
   min-height: 650px;

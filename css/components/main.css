@@ -219,7 +219,7 @@ img {
     text-align: center;
   }
   .hero__title-section::before {
-    content: url(../../img/comp.png);
+    content: url(../../img/comp1.png);
   }
 }
 

@@ -45,7 +45,7 @@
         text-align:center;
 
         &::before {
-            content: ("");
+            content: "";
             width: rem(316px);
             height: rem(330px);
             background:url(../../img/comp1.png) center center/contain no-repeat;
@@ -84,9 +84,9 @@
     padding-right: 10%;
 
     @include tablets {
-        padding: 0 25%;
+        padding: 0 26%;
     }
     @include phones {
-        padding: 16%;
+        padding: 0 26%;
     }
 }

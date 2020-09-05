@@ -269,12 +269,12 @@ img {
 }
 @media screen and (max-width: 768px) {
   .hero__title-desc {
-    padding: 0 25%;
+    padding: 0 26%;
   }
 }
 @media screen and (max-width: 480px) {
   .hero__title-desc {
-    padding: 16%;
+    padding: 0 26%;
   }
 }
 

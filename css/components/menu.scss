@@ -1,14 +1,20 @@
 .menu {
+    margin: 0 30px;
+    padding-top: 5px;
     @include tablets {
         display: none;
+
     }
 }
 
 .menu__list {
     display: flex;
-    align-items: center;    
+    align-items: center; 
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .menu__item {
+    margin-bottom: 10px;
     margin-right: rem(15px);
 
      &:last-child {
@@ -18,4 +24,5 @@
 
 .menu__link {
     text-decoration: none;
+    white-space: nowrap;
 }

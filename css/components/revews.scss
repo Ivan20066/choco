@@ -21,11 +21,22 @@
     }
 }
 .revews__display-inner {
-    display: flex;    
+    display: flex;   
+
+    @include tablets {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    } 
 }
 .revews__avatar {
     width: rem(254px);
     height: rem(260px);
+
+    @include tablets {
+        width: rem(130px);
+        height: rem(132px);
+    }
 }
 .revews__avatar-img {
     object-fit: cover;

@@ -90,7 +90,7 @@ img {
 
 .header {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
 }
 
@@ -110,6 +110,14 @@ img {
 .phone-number__icon-elem {
   width: 0.75rem;
   height: 0.75rem;
+}
+
+.phone-number__text {
+  white-space: nowrap;
+}
+
+.phone-number__icon {
+  flex-shrink: 0;
 }
 
 .features {
@@ -388,6 +396,11 @@ img {
   position: relative;
   background: url(../../img/list2.png) left top 57% no-repeat;
 }
+@media screen and (max-width: 768px) {
+  .benefits-section {
+    background: url(../../img/list2.png) left top 20% no-repeat;
+  }
+}
 .benefits-section::before {
   content: url(../../img/mal.png);
   position: absolute;
@@ -418,10 +431,23 @@ img {
 .revews__display-inner {
   display: flex;
 }
+@media screen and (max-width: 768px) {
+  .revews__display-inner {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+}
 
 .revews__avatar {
   width: 15.875rem;
   height: 16.25rem;
+}
+@media screen and (max-width: 768px) {
+  .revews__avatar {
+    width: 8.125rem;
+    height: 8.25rem;
+  }
 }
 
 .revews__avatar-img {
@@ -619,6 +645,10 @@ img {
   transform: translate(-50%, -50%);
 }
 
+.menu {
+  margin: 0 30px;
+  padding-top: 5px;
+}
 @media screen and (max-width: 768px) {
   .menu {
     display: none;
@@ -628,9 +658,12 @@ img {
 .menu__list {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .menu__item {
+  margin-bottom: 10px;
   margin-right: 0.9375rem;
 }
 .menu__item:last-child {
@@ -639,4 +672,26 @@ img {
 
 .menu__link {
   text-decoration: none;
+  white-space: nowrap;
+}
+
+.hamburger {
+  width: 24px;
+  height: 20px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .hamburger {
+    display: inline-flex;
+  }
+}
+
+.hamburger__plank {
+  display: block;
+  background: #ffffff;
+  height: 4px;
+  border-radius: 10px;
 }

@@ -1,6 +1,6 @@
 .header {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content:space-between;
 }
 .phone-number.header__phone-number {
@@ -18,4 +18,10 @@
 .phone-number__icon-elem {
     width: rem(12px);
     height: rem(12px);
+}
+.phone-number__text {
+    white-space: nowrap;
+}
+.phone-number__icon {
+flex-shrink: 0;
 }

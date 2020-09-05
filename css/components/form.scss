@@ -1,9 +1,21 @@
 .form {
     display: flex;
+
+    @include tablets {
+        flex-direction: column;
+        padding: 0 19%;
+    }
+    @include phones {
+        padding: 0;
+    }
 }
 .form__col {
     flex:1;
     margin-right: rem(20px);
+
+    @include tablets {
+        margin-right: 0;
+    }
     &:last-child {
         margin-right: 0;
     }
@@ -43,10 +55,21 @@
     display: flex;
     flex-wrap: wrap;
     margin-top: rem(25px);
+
+    @include phones {
+        justify-content: center;
+        margin-top:0;
 }
+}  
 .form__btns {
     display: flex;
     justify-content: flex-end;
     margin-top: rem(20px);
     margin-right: rem(150px);
+
+    @include tablets {
+        display: flex;
+        justify-content: center;       
+        margin-right: 0;
+    }
 }
